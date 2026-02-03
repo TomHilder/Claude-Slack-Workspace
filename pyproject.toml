@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "claude-slack-workspace"
+version = "0.1.0"
+description = "A repository written to and managed by Claude Code via Slack"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Tom Hilder"},
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+requires-python = ">=3.8"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/TomHilder/Claude-Slack-Workspace"
+Repository = "https://github.com/TomHilder/Claude-Slack-Workspace"
+
+[tool.setuptools.packages.find]
+where = ["src"]
