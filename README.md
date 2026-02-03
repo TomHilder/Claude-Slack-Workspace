@@ -18,6 +18,7 @@ This is a Python project with the following structure:
 Claude-Slack-Workspace/
 ├── src/                    # Source code
 ├── tests/                  # Test files
+├── pyproject.toml         # Python project configuration
 ├── requirements.txt        # Python dependencies
 ├── README.md              # This file
 └── LICENSE                # MIT License
